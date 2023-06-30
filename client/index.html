@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            < Code /> Converter
+        </h1>
+    </header>
+    <main>
+        <!-- code editor part -->
+        <div class="container">
+            <div class="editor-container">
+                <h2>Code Editor</h2>
+                <textarea id="code-input" placeholder="Enter your code here..."></textarea>
+                <div class="buttons">
+                    <select name="Language" id="lang">
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="Python">Python</option>
+                        <option value="Php">Php</option>
+                        <option value="Kotlin">Kotlin</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="C#">C#</option>
+                        <option value="GO">GO</option>
+                        <option value="Ruby">Ruby</option>
+                    </select>
+                    <button id="convert-btn">Convert</button>
+                    <button id="debug-btn">Debug</button>
+                    <button id="quality-btn">Quality Check</button>
+                </div>
+            </div>
+        </div>
+        <!-- Result -->
+        <div class="output-container">
+            <h2>Result</h2>
+            <div id="output" class="output"></div>
+            <button id="copy-btn">Copy</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
