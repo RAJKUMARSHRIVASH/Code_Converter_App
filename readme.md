@@ -1,11 +1,11 @@
-# Code COnverter App
+# Code Converter App
 
-This is a AI code converter app using that anyone can convert their code from one programming language to another
-also it can debug you code and perform quality check for your code.
+This is an AI code converter app using that anyone can convert their code from one programming language to another
+also, it can debug your code and perform quality checks for your code.
 
 ## Features
 
-- Cross platform
+- Cross-platform
 - AI
 
 ## Tech Stack
