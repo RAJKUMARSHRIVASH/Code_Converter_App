@@ -1,38 +1,3 @@
-// const express = require('express');
-// const axios = require('axios');
-// require('dotenv').config()
-// const app = express();
-// const port = process.env.PORT || 4000;
-
-// app.use(express.json());
-
-// app.post('/convert', async (req, res) => {
-//   const { code, language } = req.body;
-
-//   try {
-//     const response = await axios.post('https://api.openai.com/v1/chat/completions', {
-//       messages: [{ role: 'system', content: `User: Convert code to ${language}: ${code}` }],
-//     }, {
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`, // Replace with your ChatGPT API key
-//       },
-//     });
-
-//     const output = response.data.choices[0].message.content;
-
-//     res.json({ output });
-//   } catch (error) {
-//     console.error('ChatGPT API request failed:', error);
-//     res.status(500).json({ error: 'An error occurred while processing the request.' });
-//   }
-// });
-
-// app.listen(port, () => {
-//   console.log(`Server is running on port ${port}`);
-// });
-
-
 const express = require('express');
 const axios = require('axios');
 require('dotenv').config();
