@@ -7,6 +7,9 @@ also, it can debug your code and perform quality checks for your code.
 
 - Cross-platform
 - AI
+- Convert
+- Debug
+- Quality Check
 
 ## Tech Stack
 
